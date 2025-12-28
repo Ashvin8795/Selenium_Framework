@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="MaOne_AdminSettings.MaOne_AdminSettingsTest">
+        <methods>
+          <include name="assetBrowseHierarchyDelete"/>
+          <include name="checklistEdit"/>
+          <include name="listAndTeamsEdit"/>
+          <include name="powerUserSecurity"/>
+          <include name="listAndTeamsDelete"/>
+          <include name="end_report"/>
+          <include name="checklistErrorCodeAdd"/>
+          <include name="assetBrowseHierarchyActiveInactive"/>
+          <include name="checklistAdd"/>
+          <include name="editMetadataField"/>
+          <include name="assetBrowseHierarchyValidation"/>
+          <include name="screenshot_store"/>
+          <include name="screenshot_store"/>
+          <include name="assetBrowseHierarchyAdd"/>
+          <include name="assetBrowseHierarchyEdit"/>
+          <include name="language"/>
+          <include name="userActiveInActive"/>
+          <include name="listAndTeamsValidation"/>
+          <include name="listAndTeamsAdd"/>
+          <include name="checklistErrorCodeEdit"/>
+          <include name="listAndTeamsActiveInactive"/>
+          <include name="listAndTeamsDefaultAssetStatusAndAssetType"/>
+          <include name="assetLibraryMetadataMandatory"/>
+          <include name="checklistDelete"/>
+          <include name="listAndTeamsFileUploadUsingTeams"/>
+          <include name="defaultChecklistErrorCode"/>
+          <include name="viewProfile"/>
+          <include name="defaultChecklist"/>
+          <include name="restrictedUserSecurity"/>
+          <include name="userAdd"/>
+          <include name="passwordPolicy"/>
+          <include name="userEdit"/>
+          <include name="adminViews"/>
+          <include name="userLockAndUnock"/>
+          <include name="userLogin"/>
+          <include name="addMetadataField"/>
+          <include name="adminSettingsDefaultSettings"/>
+          <include name="adminSettingsValidations"/>
+          <include name="tearDown"/>
+          <include name="userAddValidations"/>
+          <include name="assetDisplayFields"/>
+          <include name="languageExportImport"/>
+          <include name="normalUserSecurity"/>
+          <include name="Load_browser"/>
+        </methods>
+      </class> <!-- MaOne_AdminSettings.MaOne_AdminSettingsTest -->
+      <class name="MaOne_Viewer.MaOne_ViewerTest">
+        <methods>
+          <include name="maOneViewerTools"/>
+          <include name="maOneViewerAnnotation"/>
+          <include name="maOneProofing"/>
+          <include name="Load_browser"/>
+          <include name="viewerTopPanel"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- MaOne_Viewer.MaOne_ViewerTest -->
+      <class name="MaOne_AssetLibrary.MaOne_AssetLibraryTest">
+        <methods>
+          <include name="assetSupportedAndUnsupported"/>
+          <include name="assetFileDeleteProperty"/>
+          <include name="assetUnsupportedFileUpload"/>
+          <include name="assetSameFileByBookmarkAnotherUser"/>
+          <include name="assetFileDownloadProperty"/>
+          <include name="assetFilterSearchCombinations"/>
+          <include name="asset5PagesFileUploadAndUpdate"/>
+          <include name="assetFileShareProperty"/>
+          <include name="assetSingleFileUpload"/>
+          <include name="assetFileEditMetadataProperty"/>
+          <include name="bulkShareValidations"/>
+          <include name="bulkBookmarkAndUnbookmark"/>
+          <include name="assetFacetFreeText"/>
+          <include name="assetValidations"/>
+          <include name="assetDisplayFieldsToAssertLibray"/>
+          <include name="assetViewXmpData"/>
+          <include name="assetSortFilter"/>
+          <include name="assetBrowseHierarchyMetadata"/>
+          <include name="assetSingleFileUploadWithMetadata"/>
+          <include name="assetFileUploadScenarios"/>
+          <include name="assetFileUnbookmarkProperty"/>
+          <include name="Load_browser"/>
+          <include name="assetFileSharePropertyInvalidMail"/>
+          <include name="assetMultipleFileUpload"/>
+          <include name="tearDown"/>
+          <include name="assetDifferentFileNameUpload"/>
+          <include name="assetSavedSearch"/>
+          <include name="assetFileBookmarkAlertGet"/>
+          <include name="assetFileBookmarkProperty"/>
+          <include name="listViewActions"/>
+          <include name="assetLanguageConfiguration"/>
+          <include name="assetFilterSearch"/>
+          <include name="shareHistory"/>
+          <include name="assetRevertFunctions"/>
+          <include name="assetBrowseScenariosAndFileActions"/>
+          <include name="bulkDelete"/>
+        </methods>
+      </class> <!-- MaOne_AssetLibrary.MaOne_AssetLibraryTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
